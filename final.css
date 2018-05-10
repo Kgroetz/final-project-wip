@@ -1,0 +1,144 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin:0;
+}
+
+h1 {
+  color: #D2691E;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h2 {
+  color: white;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h3 {
+  color:#D2691E;
+  text-align: center;
+  font-style: italic;
+  font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 30px;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+.container {
+  margin: auto;
+  width: 40%;
+  padding: 100px;
+}
+
+.container ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.container ul:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border: 2px solid 	#5F9EA0;
+}
+
+.container ul li {
+  margin-bottom: 200px;
+  margin-right: 60px;
+  margin-left: 60px;
+  position: relative;
+
+}
+
+.container ul li > span {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60px;
+  width: 0px;
+  height: 100%;
+  border: 2px solid 	#5F9EA0;
+}
+
+.container ul li > span:before{
+  content: '';
+  width: 70px;
+  height: 50px;
+  border: 3px solid #5F9EA0;
+  position: absolute;
+  border-radius: 50%;
+  left: -37px;
+  background: #fff;
+}
+
+.container ul li > span:before{
+  top: -10px;
+
+}
+
+.container ul li > span:after {
+  top: 100%;
+}
+
+.container ul li .time span {
+  position: absolute;
+  left: -83px;
+  top: 5px;
+  color: #5F9EA0;
+}
+
+.title{
+  color: grey;
+  padding: 20px;
+  font-family: Arial;
+  border: solid 1px #5F9EA0;
+  margin: 20px 0px;
+    background: white;
+}
+
+.info{
+  padding: 20px;
+  font-family: Arial;
+  color: grey;
+  border: solid 1px #5F9EA0;
+  margin: 20px 0px;
+    background: white;
+}
+
+.type{
+  padding: 20px;
+  font-family: Arial;
+  color: grey;
+  border: solid 1px #5F9EA0;
+    background: white;
+}
+
+.time{
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.background{
+  background: linear-gradient(to bottom, #33cccc 0%, #ffff99 100%);
+}
